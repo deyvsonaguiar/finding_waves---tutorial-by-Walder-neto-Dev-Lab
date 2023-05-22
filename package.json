@@ -1,0 +1,27 @@
+{
+  "name": "finding_waves",
+  "version": "1.0.0",
+  "description": "API Node JS with Typescript to finding waves on beaches around the world!",
+  "main": "no",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "yarn build && node dist/src/index.js"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "typescript",
+    "mongodb"
+  ],
+  "author": "Waldemar Neto - Deyvson Aguiar",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^20.2.3",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}

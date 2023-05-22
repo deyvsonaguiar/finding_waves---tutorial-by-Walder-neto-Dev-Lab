@@ -1,0 +1,1 @@
+console.log('testando test/index.ts...')
