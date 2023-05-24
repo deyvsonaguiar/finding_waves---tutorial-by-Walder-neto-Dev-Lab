@@ -6,7 +6,9 @@
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "yarn build && node dist/src/index.js"
+    "start": "yarn build && node dist/src/index.js",
+    "lint": "eslint ./src ./test --ext .ts",
+    "lint:fix": "eslint ./src ./test --ext .ts --fix"
   },
   "keywords": [
     "api",
@@ -19,6 +21,9 @@
   "devDependencies": {
     "@types/module-alias": "^2.0.1",
     "@types/node": "^20.2.3",
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
+    "eslint": "^8.41.0",
     "typescript": "^5.0.4"
   },
   "dependencies": {
