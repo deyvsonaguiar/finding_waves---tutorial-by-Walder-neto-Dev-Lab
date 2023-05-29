@@ -39,7 +39,6 @@ export class ForecastController {
         "windDirection": 310.48
       }]
     }
-    ]
-    )
+    ])
   }
 }
