@@ -1,0 +1,6 @@
+{
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "notebook.formatOnSave.enabled": true,
+  "editor.formatOnSave": true,
+  "eslint.codeActionsOnSave.rules": null
+}
